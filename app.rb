@@ -25,7 +25,7 @@ class App < Sinatra::Base
     @num2 = params[:num2].to_i
     binding.pry
     @sum = @num1 * @num2
-    @sum
+    "#{@sum}"
   end
 
 end
